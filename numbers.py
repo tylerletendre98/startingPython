@@ -20,5 +20,6 @@ print(a % b)  # remainder after the division
 print()
 
 # cant use a float in this
+# this also loops through the range of numbers established in the ()
 for i in range(1, 6):
     print(i)
