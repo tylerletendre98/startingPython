@@ -11,5 +11,8 @@ print(age)
 print(type(greeting))
 print(type(age))
 
-age = "2 years"
-print(type(age))
+ageInWords = "2 years"
+
+# this will create an error cant concatinate str with int
+# print(name + " is  " + age + " years old")
+
