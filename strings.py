@@ -55,3 +55,7 @@ print(seperators)
 # turns the string number into an array that contains the numbers in the string
 values = "".join(char if char not in seperators else " " for char in number).split()
 print([int(val) for val in values])
+
+
+# making strings using the f operator
+print(name + f" is {age} years old")
